@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body,
+html {
+    height: 100%;
+    margin: 0;
+}
+.float {
+    position: fixed;
+    width: 300px;
+    height: 120px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #daa520;
+    color: #fff;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+}
+input[type="text"] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 15px 0 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 60%;
+    background-color: #b8860b;
+    color: #fff;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px #e1a95f;
+}
+.bg {
+    background-image: url(bg.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
